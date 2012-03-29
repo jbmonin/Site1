@@ -1,0 +1,13 @@
+<phpunit colors="true">
+  <testsuites>
+    <testsuite>
+      <directory>.</directory>
+    </testsuite>
+  </testsuites>
+  
+  <logging>
+    <log type="junit" target="../build/logs/phpunit.xml" />
+    <log type="testdox-html" target="../build/logs/phpunit.html" />
+  </logging>
+  
+</phpunit>
